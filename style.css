@@ -65,6 +65,10 @@ nav a:hover {
 }
 
 .features div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: calc(100% / 3);
     height: 100%;
     color: #fff;
@@ -72,4 +76,25 @@ nav a:hover {
 
 .features div:first-child {
     background-color: #262626;
+}
+
+.features img {
+    width: 30%;
+}
+
+.features h1 {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Helvetica;
+    letter-spacing: 1px;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+.description img {
+    width: 45%;
 }
