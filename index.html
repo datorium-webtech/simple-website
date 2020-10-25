@@ -44,9 +44,27 @@
         </div>
 
         <div class="signup">
-            
+            <form>
+                <label for="signup-name">Full Name</label><br>
+                <input type="text" id="signup-name" placeholder="Enter your name..."><br><br>
+
+                <label>Programming Experience</label><br>
+                <input type="radio" id="signup-no-exp" name="experience">
+                <label for="signup-no-exp">None</label><br>
+                <input type="radio" id="signup-frontend-exp" name="experience">
+                <label for="signup-frontend-exp">Frontend</label><br>
+                <input type="radio" id="signup-other-exp" name="experience">
+                <label for="signup-other-exp">Other</label><br><br>
+
+                <label for="signup-email">Email</label><br>
+                <input type="email" id="signup-email" placeholder="Enter your email..."><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </main>
+
+    <footer></footer>
 </body>
 </html>
 <script src="main.js"></script>
