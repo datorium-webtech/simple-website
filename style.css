@@ -151,6 +151,16 @@ footer {
     background-color: #262626;
     height: 40px;
     box-shadow: 0px 0px 10px #aaa;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact {
+    color: #fff;
+    font-size: 12px;
+    font-family: Helvetica;
+    margin-right: 30px;
 }
 
 .signup form {
@@ -193,3 +203,38 @@ footer {
     margin-bottom: 10px;
     display: inline-block;
 }
+
+.courses {
+    margin-top: 150px;
+    width: 100%;
+    height: 300px;
+}
+
+.courses table {
+    width: 50%;
+    height: 100%;
+    font-family: Helvetica;
+    font-size: 14px;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.courses table tr {
+    border: 1px solid #ccc;
+}
+
+/* Change the first row background to #ccc color and make text bold */
+.courses table tr:nth-child(1) {
+    font-weight: bold;
+    background-color: #ccc;
+}
+
+.courses table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.courses table td:nth-child(1) {
+    text-align: left;
+}
+
